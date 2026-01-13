@@ -17,7 +17,7 @@ This project is a multi-device networking lab completed under timed, high-pressu
 - Switchport security on designated ports  
 - Verified connectivity across all devices  
 
-The topology was **recreated independently**, demonstrating ability to reproduce a network from instructions. Diagrams showing the recreated network are included in the `diagrams/` folder.  
+The topology was **recreated independently**, demonstrating ability to reproduce a network from instructions. Diagrams showing the recreated network are included in the `diagram/` folder.  
 
 > Note: The original Packet Tracer file from the lab could not be included due to exam content restrictions.  
 
@@ -26,7 +26,7 @@ The topology was **recreated independently**, demonstrating ability to reproduce
 ## Instructions / How to Review
 
 1. Check the `configs/` folder for router, switch, and PC configuration files.  
-2. Review the `diagrams/` folder for the recreated topology.  
+2. Review the `diagram/` folder for the recreated topology.  
 3. Look at the `screenshots/` folder to verify VLANs, interVLAN routing, DHCP assignment, and switch security.  
 4. PCs in VLAN 16 and VLAN 17 are set to obtain IP addresses automatically via DHCP.  
 

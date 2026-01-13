@@ -17,8 +17,6 @@ This project is a **multi-device networking lab completed under timed, high-pres
 - Switchport security on designated ports  
 - Verified connectivity across all devices  
 
-The topology was **recreated independently**, demonstrating ability to reproduce a network from instructions. Diagrams showing the recreated network are included in the `diagram/` folder.  
-
 > Note: The original Packet Tracer file from the lab could not be included due to exam content restrictions.  
 
 ---

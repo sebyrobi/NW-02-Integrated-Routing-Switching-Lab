@@ -15,7 +15,7 @@ This project is a **multi-device networking lab completed under timed, high-pres
 - Static routes and default routes for network traffic  
 - DHCP for VLAN 17 hosts, reserving addresses .1–.15  
 - Switchport security on designated ports  
-- Verified connectivity across all devices  
+- Verified connectivity  
 
 > Note: The original Packet Tracer file from the lab could not be included due to exam content restrictions.  
 

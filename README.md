@@ -1,9 +1,8 @@
 # NW-02-Integrated-Routing-Switching-Lab
 
-**Project:** Integrated VLAN and Routing Lab  
-**Skills:** VLANs, InterVLAN Routing, DHCP, Static Routing, Switch Security  
-**Scope:** Timed, high-pressure multi-device exercise  
-**Completion:** ~85% of tasks completed
+Project: Integrated VLAN and Routing Lab  
+Skills: VLANs, InterVLAN Routing, DHCP, Static Routing, Switch Security, Device Configuration  
+Completion: 85%
 
 ---
 

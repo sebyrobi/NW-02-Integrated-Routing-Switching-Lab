@@ -1,0 +1,110 @@
+Router DHCP & RoaSt Running Configuration:
+Project: NW-02 Integrated VLAN & Routing Lab
+
+Router#show running-config
+Building configuration...
+
+Current configuration : 1225 bytes
+!
+version 12.2
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Router
+!
+!
+!
+!
+ip dhcp excluded-address 172.17.0.1 172.17.0.15
+!
+ip dhcp pool Net17
+ network 172.17.0.0 255.255.0.0
+ default-router 172.17.0.1
+ dns-server 7.7.7.7
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip domain-name labfinal.com
+!
+!
+!
+!
+!
+!
+!
+!
+interface FastEthernet0/0
+ no ip address
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/0.16
+ encapsulation dot1Q 16
+ ip address 172.16.0.1 255.255.0.0
+!
+interface FastEthernet0/0.17
+ encapsulation dot1Q 17
+ ip address 172.17.0.1 255.255.0.0
+!
+interface FastEthernet1/0
+ no ip address
+ duplex auto
+ speed auto
+ shutdown
+!
+interface Serial2/0
+ ip address 192.168.255.1 255.255.255.0
+ clock rate 2000000
+!
+interface Serial3/0
+ no ip address
+ clock rate 2000000
+ shutdown
+!
+interface FastEthernet4/0
+ no ip address
+ shutdown
+!
+interface FastEthernet5/0
+ no ip address
+ shutdown
+!
+ip classless
+ip route 192.168.255.4 255.255.255.252 Serial2/0 
+ip route 192.168.1.0 255.255.255.0 Serial2/0 
+ip route 0.0.0.0 0.0.0.0 192.168.255.6 
+!
+ip flow-export version 9
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+!
+line aux 0
+!
+line vty 0 4
+ login
+!
+!
+!
+end

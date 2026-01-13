@@ -8,30 +8,33 @@ Completion: 85%
 
 ## Project Overview
 
-This lab demonstrates end-to-end networking across multiple devices:  
+This project is a multi-device networking lab completed under timed, high-pressure conditions. I configured:  
 
-- Configured VLANs and SVI interfaces  
-- Router-on-a-Stick interVLAN routing  
-- DHCP for VLAN 17 (host assignment)  
-- Static routes and default route configuration  
+- VLANs and SVIs on switches, including VLAN 16 (Captain) and VLAN 17 (Tennille)  
+- Router-on-a-Stick interVLAN routing with sub-interfaces  
+- Static routes and default routes for network traffic  
+- DHCP for VLAN 17 hosts, reserving addresses .1–.15  
 - Switchport security on designated ports  
 - Verified connectivity across all devices  
 
-The topology was **recreated independently**, showing ability to reproduce a network from instructions.  
+The topology was **recreated independently**, demonstrating ability to reproduce a network from instructions. Diagrams showing the recreated network are included in the `diagrams/` folder.  
 
----
-
-## Key Takeaways
-
-- Demonstrates **CCNA-level skills** under **time constraints**  
-- Multi-device setup integrating routing, switching, VLANs, DHCP, and security  
-- Screenshots, diagrams, and configs provide evidence of **working connectivity and proper configurations**  
+> Note: The original Packet Tracer file from the lab could not be included due to exam content restrictions.  
 
 ---
 
 ## Instructions / How to Review
 
-1. Open the Packet Tracer file to explore the network.  
-2. Check the `configs/` folder for router, switch, and PC configurations.  
-3. Review the `diagrams/` folder for your topology and recreated diagram.  
-4. Look at the `screenshots/` folder for connectivity, VLANs, DHCP, and switch security verification.
+1. Check the `configs/` folder for router, switch, and PC configuration files.  
+2. Review the `diagrams/` folder for the recreated topology.  
+3. Look at the `screenshots/` folder to verify VLANs, interVLAN routing, DHCP assignment, and switch security.  
+4. PCs in VLAN 16 and VLAN 17 are set to obtain IP addresses automatically via DHCP.  
+
+---
+
+## Key Takeaways
+
+- Demonstrates CCNA-level skills under **timed, high-pressure conditions**  
+- Multi-device setup integrating VLANs, routing, DHCP, static routes, and switch security  
+- Screenshots and configs provide evidence of working connectivity and correct configurations  
+- Shows ability to **reproduce and verify a complex network independently**  

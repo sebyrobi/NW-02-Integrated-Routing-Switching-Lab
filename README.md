@@ -1,14 +1,14 @@
 # NW-02-Integrated-Routing-Switching-Lab
 
-Project: Integrated VLAN and Routing Lab  
-Skills: VLANs, InterVLAN Routing, DHCP, Static Routing, Switch Security, Device Configuration  
-Completion: 85%
+**Project:** Integrated VLAN and Routing Lab  
+**Skills:** VLANs, InterVLAN Routing, DHCP, Static Routing, Switch Security, Device Configuration  
+**Completion:** 85%  
 
 ---
 
 ## Project Overview
 
-This project is a multi-device networking lab completed under timed, high-pressure conditions. I configured:  
+This project is a **multi-device networking lab completed under timed, high-pressure conditions**. I configured:
 
 - VLANs and SVIs on switches, including VLAN 16 (Captain) and VLAN 17 (Tennille)  
 - Router-on-a-Stick interVLAN routing with sub-interfaces  
@@ -37,4 +37,4 @@ The topology was **recreated independently**, demonstrating ability to reproduce
 - Demonstrates CCNA-level skills under **timed, high-pressure conditions**  
 - Multi-device setup integrating VLANs, routing, DHCP, static routes, and switch security  
 - Screenshots and configs provide evidence of working connectivity and correct configurations  
-- Shows ability to **reproduce and verify a complex network independently**  
+- Shows ability to **reproduce and verify a complex network independently**

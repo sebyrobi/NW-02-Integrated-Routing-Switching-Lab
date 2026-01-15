@@ -10,7 +10,7 @@
 
 This project is a **multi-device networking lab completed under timed, high-pressure conditions**. I configured:
 
-- VLANs and SVIs on switches, including VLAN 16 (Captain) and VLAN 17 (Tennille)  
+- VLANs and SVIs on switches, including VLAN 16 and VLAN 17  
 - Router-on-a-Stick interVLAN routing with sub-interfaces  
 - Static routes and default routes for network traffic  
 - DHCP for VLAN 17 hosts, reserving addresses .1–.15  
